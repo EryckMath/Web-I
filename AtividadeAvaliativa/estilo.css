@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.cabeçalho {
+    background-color: #405F73;
+    font-weight: bold;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 3 px 3 px 3px rgba(125, 124, 124, 0);
+    margin: 2px;
+    padding: 5px;
+}
+
+body {
+    background-image: linear-gradient(to right,  #D7D9D8, #A3B4BF);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px  #7292A6;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #225473;
+    text-align: center;
+}
+
+h3 {
+    color: #2685BF;
+    text-align: center;
+}
+
+.inicio {
+    padding-left: 1em;
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-right: 1em;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #44aef0;
+}
+.nasa{
+    color: #225473;
+}
+
+.segundaPagina {
+    text-align: center;
+}
+
+article > p {
+    text-align: justify;
+}
+aside > p > a{
+    color: black;
+}
+
+.rodape {
+    color: white;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #405F73;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3 px 3 px 3px rgba(125, 124, 124, 0);
+    margin: 2px;
+    padding: 5px;
+}
+
